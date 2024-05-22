@@ -14,6 +14,6 @@ public class Logger{
 	public void log(String msg){
 		var builder = new StringBuilder();
 		builder.append("[");
-		builder.append(Local
+		builder.append(LocalTime.of(zone));
 	}
 }
